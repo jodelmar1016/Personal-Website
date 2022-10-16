@@ -1,0 +1,22 @@
+.img-con {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media all and (min-width: 768px){
+    .centered h4{
+        font-size: 40px;
+    }
+}
+@media all and (min-width: 1200px){
+    .centered h4{
+        font-size: 70px;
+    }
+}
